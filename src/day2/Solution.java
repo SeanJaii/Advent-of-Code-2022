@@ -37,8 +37,8 @@ public class Solution {
     int requiredScore = 0;
 
     String filename =
-            new File("/Users/seanjaii/Desktop/Projects/coding competitions/Advent of Code 2022/src/day2/input.txt")
-                    .getAbsolutePath();
+        new File("src/day2/input.txt").getAbsolutePath();
+
     Stream<String> lines;
 
     public void solve() throws IOException {

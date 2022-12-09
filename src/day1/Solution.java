@@ -12,8 +12,7 @@ public class Solution {
     ArrayList totals = new ArrayList<Integer>();
     int currentTotal = 0;
     String filename =
-            new File("/Users/seanjaii/Desktop/Projects/coding competitions/Advent of Code 2022/src/day1/input.txt")
-            .getAbsolutePath();
+        new File("src/day3/input.txt").getAbsolutePath();
     Stream<String> lines;
 
     public void solve() throws IOException {
